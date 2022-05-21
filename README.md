@@ -1,8 +1,8 @@
 # Calculator
 
-CutefishOS Calculator
+Cirily Calculator
 
-## Dependencies
+## Dependencies (For Ubuntu/Debian)
 
 ```shell
 sudo apt-get install cmake gcc qtbase5-dev qtdeclarative5-dev qml-module-qtquick2 qml-module-qtquick-controls2
