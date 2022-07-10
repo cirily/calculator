@@ -4,7 +4,7 @@ import QtQuick.Controls 2.5
 
 
 import FishUI 1.0 as FishUI
-import Cutefish.Calculator 1.0
+import Pisces.Calculator 1.0
 
 Item {
     id: zone

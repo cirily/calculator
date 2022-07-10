@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(PROJECT_NAME cutefish-calculator)
+set(PROJECT_NAME pisces-calculator)
 project(${PROJECT_NAME})
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -50,7 +50,7 @@ endif ()
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION /usr/bin)
 
 install(FILES
-    cutefish-calculator.desktop
+    pisces-calculator.desktop
     DESTINATION /usr/share/applications/
     COMPONENT Runtime
 )

@@ -1,7 +1,7 @@
-Source: cutefish-calculator
+Source: pisces-calculator
 Section: devel
 Priority: optional
-Maintainer: CutefishOS <cutefishos@foxmail.com>
+Maintainer: Piscesys Packaging Team <support@piscesys.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -11,9 +11,9 @@ Build-Depends: cmake,
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 4.5.0
-Homepage: https://github.com/cutefishos/calculator
+Homepage: https://github.com/piscesys/calculator
 
-Package: cutefish-calculator
+Package: pisces-calculator
 Architecture: any
 Depends: qml-module-qtquick-controls2,
          qml-module-qtquick2,
@@ -26,4 +26,4 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtquick-dialogs,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CutefishOS Calculator
+Description: Piscesys Calculator

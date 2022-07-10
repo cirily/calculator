@@ -1,7 +1,7 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
-import Cutefish.Calculator 1.0
+import Pisces.Calculator 1.0
 import Qt.labs.platform 1.0
 import FishUI 1.0 as FishUI
 
@@ -35,7 +35,7 @@ FishUI.Window {
         id: aboutDialog
         name: rootWindow.title
         description: qsTr("A simple calculator")
-        iconSource: "image://icontheme/cutefish-calculator"
+        iconSource: "image://icontheme/pisces-calculator"
     }
 
     FishUI.WindowBlur {

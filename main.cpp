@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CutefishOS.
+ * Copyright (C) 2020 Piscesys.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -32,9 +32,9 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
 
     QGuiApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme("cutefish-calculator"));
+    app.setWindowIcon(QIcon::fromTheme("pisces-calculator"));
 
-    qmlRegisterType<CalcEngine>("Cutefish.Calculator", 1, 0, "CalcEngine");
+    qmlRegisterType<CalcEngine>("Pisces.Calculator", 1, 0, "CalcEngine");
 
     QQmlApplicationEngine engine;
 
@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 
     // Translations
     QLocale locale;
-    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cutefish-calculator/translations/").arg(locale.name());
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/pisces-calculator/translations/").arg(locale.name());
     if (QFile::exists(qmFilePath)) {
         QTranslator *translator = new QTranslator(QGuiApplication::instance());
         if (translator->load(qmFilePath)) {
